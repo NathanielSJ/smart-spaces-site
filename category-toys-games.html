@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toys & Games Picks — Smart Spaces &amp; Gadget Finds</title>
+<meta name="description" content="Our current picks for toys and games across ages.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="disclosure-strip">
+  As an Amazon Associate we earn from qualifying purchases. <a href="disclosure.html">Read our full disclosure</a>.
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Smart Spaces &amp; <span>Gadget Finds</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="disclosure.html">Disclosure</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 32px;">
+  <div class="wrap" style="grid-template-columns: 1fr;">
+    <div>
+      <h1>Toys &amp; <em>Games</em></h1>
+      <p>Toys and games chosen for actual playtime, not just packaging — picks that hold a kid's attention past week one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="picks">
+  <div class="wrap">
+    <article class="pick">
+      <div class="pick-media">🧸</div>
+      <div>
+        <span class="pick-rank">Editor's pick</span>
+        <h3>Amazon Fire 7 Kids Tablet</h3>
+        <p>A durable, kid-proof tablet built for the wear and tear of daily use — parental controls and a protective case included make it a solid pick for younger kids.</p>
+        <div class="pick-meta">
+          <a class="btn" href="https://link.amazon/B0ccxOKhm">See price on Amazon</a>
+          <span class="price-tag">Add your price note</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="pick">
+      <div class="pick-media">🧩</div>
+      <div>
+        <span class="pick-rank">Best for younger kids</span>
+        <h3>SVITOO Kids Tablet</h3>
+        <p>A budget-friendly alternative for younger kids, with pre-loaded learning apps and a simplified interface that's easy for little hands to navigate.</p>
+        <div class="pick-meta">
+          <a class="btn" href="https://link.amazon/B0fwVvAog">See price on Amazon</a>
+          <span class="price-tag">Add your price note</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="pick">
+      <div class="pick-media">📸</div>
+      <div>
+        <span class="pick-rank">Best for creative play</span>
+        <h3>Kids Instant Print Camera</h3>
+        <p>A hands-on way for kids to capture and print their own photos on the spot — a fun, screen-light alternative that still feels like real tech.</p>
+        <div class="pick-meta">
+          <a class="btn" href="https://link.amazon/B0apQXpm5">See price on Amazon</a>
+          <span class="price-tag">Add your price note</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="copyright">© 2026 Smart Spaces &amp; Gadget Finds.</p>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>
