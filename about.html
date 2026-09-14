@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Smart Spaces & Gadget Finds</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="disclosure-strip">
+  As an Amazon Associate we earn from qualifying purchases. <a href="disclosure.html">Read our full disclosure</a>.
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Smart Spaces &amp; <span>Gadget Finds</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="disclosure.html">Disclosure</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="prose">
+  <h1>About Smart Spaces & Gadget Finds</h1>
+  <p>Replace this paragraph with a couple of honest sentences about who runs this site and why. Amazon and readers both respond better to a real voice than a generic "we love helping shoppers!" line — say what you actually do: how you choose products, how often you update picks, what you won't recommend.</p>
+
+  <h2>How picks are chosen</h2>
+  <p>Describe your actual process here — for example, whether you personally use items, read a minimum number of verified reviews, or compare specs across a category before listing something. This section is what separates a trustworthy affiliate site from a thin one, in the eyes of both readers and Amazon's review team.</p>
+
+  <h2>Contact</h2>
+  <p>Add a real contact email here — Amazon's application typically expects a working way to reach the site owner.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="copyright">© 2026 Smart Spaces & Gadget Finds.</p>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>
