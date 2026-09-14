@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Spaces & Gadget Finds — Honest Picks for Everyday Life</title>
+<meta name="description" content="Hand-picked product recommendations across home, tech, fashion, baby gear, tools and more — tested picks, not just top-ten lists.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="disclosure-strip">
+  As an Amazon Associate we earn from qualifying purchases. <a href="disclosure.html">Read our full disclosure</a>.
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Smart Spaces &amp; <span>Gadget Finds</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="disclosure.html">Disclosure</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Good stuff for ordinary rooms, <em>not showrooms.</em></h1>
+      <p>We buy, use, and compare the things that fill an actual home — from the kettle you'll use daily to the drill you'll use twice a year. No sponsored placements, no filler.</p>
+    </div>
+    <div class="hero-note">
+      <strong>How we pick:</strong> every item listed has either been used by our team or cross-checked across verified buyer reviews before it earns a spot on the shelf.
+    </div>
+  </div>
+</section>
+
+<section class="shelf" id="categories">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Browse the shelf</h2>
+      <p>Sixteen aisles, one goal: help you buy the right thing once.</p>
+    </div>
+
+    <div class="shelf-grid">
+      <a class="cat-card" href="category-home-tech.html">
+        <span class="glyph">🏠</span>
+        <span class="name">Home &amp; Tech</span>
+        <span class="go">View picks →</span>
+      </a>
+
+      <div class="cat-card disabled">
+        <span class="glyph">👕</span>
+        <span class="name">Fashion &amp; Accessories</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🎮</span>
+        <span class="name">TV, Games &amp; Amazon Coins</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🍼</span>
+        <span class="name">Baby &amp; Nursery</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">💄</span>
+        <span class="name">Beauty &amp; Grooming</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">📦</span>
+        <span class="name">Business &amp; Industrial Supplies</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🛋️</span>
+        <span class="name">Furniture</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🎧</span>
+        <span class="name">Headphones</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🧺</span>
+        <span class="name">Home</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🛠️</span>
+        <span class="name">Home Improvement</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🎸</span>
+        <span class="name">Musical Instruments</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🏕️</span>
+        <span class="name">Outdoor Recreation</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🌿</span>
+        <span class="name">Patio, Lawn &amp; Garden</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🐾</span>
+        <span class="name">Pet Food &amp; Supplies</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🔧</span>
+        <span class="name">Power &amp; Hand Tools</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🏋️</span>
+        <span class="name">Sports &amp; Fitness</span>
+        <span class="go">Coming soon</span>
+      </div>
+
+      <div class="cat-card disabled">
+        <span class="glyph">🧸</span>
+        <span class="name">Toys &amp; Games</span>
+        <span class="go">Coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="copyright">© 2026 Smart Spaces & Gadget Finds.</p>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>
