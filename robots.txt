@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nathanielsj.github.io/smart-spaces-site/sitemap.xml
